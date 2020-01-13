@@ -45,9 +45,11 @@ removeCompleted = () => {
   render(){
     console.log(this.state.itemList)
     return (
-      <div>
-        <h2>Welcome to My Todo App!</h2>
-        <TodoForm addTodo = {this.addTodo}/>
+      <div class='app'>
+        <div className='header'>
+          <h2>Welcome to My Todo App!</h2>
+          <TodoForm addTodo = {this.addTodo}/>
+        </div>
         <TodoList 
           itemList={this.state.itemList}
           toggleItem = {this.toggleItem}
