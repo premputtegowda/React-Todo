@@ -8,7 +8,9 @@ body {
 }
 
 body {
+
   background-color: #2d2d37;
+
 }
 
 
@@ -99,5 +101,7 @@ form {
 }
 
 button:disabled {
+
     color: grey;
+    
 }
